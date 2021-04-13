@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset='UTF-8'>
   <title>Personal Portfolio </title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -74,9 +78,9 @@
                                     <h5 class="title">Junior Automation Tester </h5>
                                     <p class="description">
                                       -	Develop and maintain automation script using selenium WebDriver<br>
-                                      -	Extensively used Selenium locators such as XPath locator to test flight booking website
+                                      -	Extensively used Selenium locators such as XPath locator to test flight &nbsp; &nbsp;booking website
                                       -	Ability to write technical documentation<br>
-                                      -	Experience using Subversion as a collaboration tool (version control) to manages files and directories and as well as the changes <br>
+                                      -	Experience using Subversion as a collaboration tool (version control) &nbsp;&nbsp;&nbsp;to manages files and directories and as well as the changes <br>
                                       -	Involved in using Maven build tools to manage framework dependency jar file
                                       
                                     </p>
@@ -113,13 +117,13 @@
                                 <div class="date-content">
                                     <div class="date-outer">
                                         <span class="date">
-                                                <span class="month">7 Months</span>
+                                                <span class="month">5 Months</span>
                                         <span class="year">2020</span>
                                         </span>
                                     </div>
                                 </div>
                                 <div class="timeline-content">
-                                    <h5 class="title">Web Designer</h5>
+                                    <h5 class="title">Junior Software Developer (Java)</h5>
                                     <p class="description">
                                       -	Develop and maintain application system using AEM(Adobe Experience Manager) <br>
                                       -	Provided support to maintain production systems <br>
@@ -138,51 +142,11 @@
     </div>
    
 
-
-  <!-- <div class="content-wrapper">
-    <div class="portfolio-items-wrapper">
-
-      <div class="portfolio-item-wrapper">
-        <div class="portfolio-img-background" style="background-image:url(images/portfolio11.jpg)"></div>
-
-        <div class="img-text-wrapper">
-          <div class="logo-wrapper">
-            <img src="images/logos/quip.png" alt="">
-          </div>
-
-          <div class="subtitle">In progress</div>
-        </div>
-      </div>
-
-      <div class="portfolio-item-wrapper">
-        <div class="portfolio-img-background" style="background-image:url(images/portfolio11.jpg)"></div>
-        <div class="img-text-wrapper">
-          <div class="logo-wrapper">
-            <img src="images/logos/quip.png" alt="">
-          </div>
-          <div class="subtitle">In progress</div>
-        </div>
-      </div>
-
-        
-      <div class="portfolio-item-wrapper">
-        <div class="portfolio-img-background" style="background-image:url(images/portfolio11.jpg)"></div>
-        <div class="img-text-wrapper">
-          <div class="logo-wrapper">
-            <img src="images/logos/quip.png" alt="">
-          </div>
-        <div class="subtitle">In progress</div>
-        </div>
-      </div>  
-
-    </div>
-  </div>
-  -->
 </section>
 
 <section class="contact" id="contact">
   <div class="heading">
-    <h2>Contact Me</h2>
+    <!-- <h2>Contact Me</h2> -->
   </div>
   <div class="content">
     <div class="contactInfo">
@@ -217,7 +181,7 @@
         </div>
       </div>
     </div>
-    <div class="formBx">
+    <!-- <div class="formBx">
       <form>
         <h3>Contact Me</h3>
         <input type="text" name="" placeholder="Full Name">
@@ -225,7 +189,7 @@
         <textarea placeholder="Your Message"></textarea>
         <input type="submit" class="btn btn-secondary" value="Send">
       </form>
-    </div>
+    </div> -->
 
   </div>
 </section>
@@ -234,28 +198,16 @@
 
 
     
-       
+<script src="js/client.js"></script>     
       
 
-      <script type="text/javascript">
+      <!-- <script type="text/javascript">
         window.addEventListener('scroll', function(){
           var header = document.querySelector('header');
           header.classList.toggle('sticky', window.scrollY > 0);
-       });
+       }); -->
 
-    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
-    
-    portfolioItems.forEach(portfolioItem => {
-      portfolioItem.addEventListener('mouseover', () => {
-        console.log(portfolioItem.childNodes[1].classList)
-        portfolioItem.childNodes[1].classList.add('image-blur');
-      });
-  
-      portfolioItem.addEventListener('mouseout', () => {
-        console.log(portfolioItem.childNodes[1].classList)
-        portfolioItem.childNodes[1].classList.remove('image-blur');
-      });
-    });
+
       </script>
     
     </body>
